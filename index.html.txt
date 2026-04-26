@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Moja Strona</title>
+    <style>
+        body { font-family: Arial; text-align: center; padding: 50px; background: #f4f4f4; }
+        h1 { color: #333; }
+        p { font-size: 18px; }
+        a.button { display: inline-block; padding: 15px 25px; background: #007BFF; color: #fff; text-decoration: none; border-radius: 5px; margin-top: 20px; }
+        a.button:hover { background: #0056b3; }
+    </style>
+</head>
+<body>
+    <h1>Witaj na mojej stronie!</h1>
+    <p>To jest mój darmowy landing page na GitHub Pages.</p>
+    <a class="button" href="#">Zrób coś teraz!</a>
+</body>
+</html>
