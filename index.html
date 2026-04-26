@@ -4,11 +4,41 @@
     <meta charset="UTF-8">
     <title>Moja Strona</title>
     <style>
-        body { font-family: Arial; text-align: center; padding: 50px; background: #f4f4f4; }
-        h1 { color: #333; }
-        p { font-size: 18px; }
-        a.button { display: inline-block; padding: 15px 25px; background: #007BFF; color: #fff; text-decoration: none; border-radius: 5px; margin-top: 20px; }
-        a.button:hover { background: #0056b3; }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #ffc0cb; /* pudrowy róż */
+        }
+        h1 {
+            font-size: 60px;
+            color: #ffffff;
+            /* czarne obramowanie przez wiele cieni */
+            text-shadow: 2px 2px #000, -2px -2px #000, 2px -2px #000, -2px 2px #000, 0 2px #000, 2px 0 #000, 0 -2px #000, -2px 0 #000;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 28px;
+            color: #ffffff;
+            text-shadow: 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+            margin: 15px 0;
+        }
+        a.button {
+            display: inline-block;
+            padding: 20px 40px;
+            background-color: #ff1493; /* mocny róż */
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 15px;
+            font-weight: bold;
+            font-size: 24px;
+            margin-top: 30px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        a.button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px #ff69b4;
+        }
     </style>
 </head>
 <body>
@@ -16,6 +46,6 @@
     <p>To jest mój darmowy landing page na GitHub Pages.</p>
     <p>No elo, wpadajcie na TikToka</p>
     <p>Zapraszamy na kurs o tiktoku fakeczynews</p>
-    <a class="button" href="#">Zrób coś teraz!</a>
+    <a class="button" href="#">Obadej TikToka</a>
 </body>
 </html>
