@@ -14,6 +14,7 @@
 <body>
     <h1>Witaj na mojej stronie!</h1>
     <p>To jest mój darmowy landing page na GitHub Pages.</p>
+    <p> no elo, wpadajcie na tiktoka </p>
     <a class="button" href="#">Zrób coś teraz!</a>
 </body>
 </html>
